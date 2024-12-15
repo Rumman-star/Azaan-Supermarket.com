@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azaan Supermarket</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background: radial-gradient(circle, #1a1a1d, #000);
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-bottom: 2px solid #e63946;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e63946;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e63946;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: url('spi.jpg') no-repeat center center/cover;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #e63946;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: Blue;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 50px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #e63946;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            color: #e63946;
+        }
+
+        .card p {
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            border-top: 2px solid #e63946;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="iron.jpeg" alt="Azaan Supermarket Logo">
+            Azaan Supermarket
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Azaan Supermarket</h1>
+        <p>Your one-stop shop for all your needs, now with a futuristic twist!</p>
+    </section>
+
+    <section class="grid">
+        <div class="card">
+            <h3>Fresh Produce</h3>
+            <p>Experience freshness like never before with our handpicked fruits and vegetables.</p>
+           <img src="veg.jpeg"</>
+        </div>
+        <div class="card">
+            <h3>High-Tech Watches</h3>
+            <p>Explore our collection of futuristic watches for your smart lifestyle.</p>
+            <img src="navi.jpeg" </>
+        </div>
+        <div class="card">
+            <h3>Remote Cars</h3>
+            <p>Explore our collection of futuristic remote cars for fun lifestyle.</p>
+            <img src="remote.jpeg" < />
+        </div>
+    </section>
+
+    <footer>
+        <p> contact: 070-249-2113</p>      
+        <p>Email: Supermarketazaaz@gmail.com</p>      
+        <p>2024 Azaan Supermarket. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+
+</html>
